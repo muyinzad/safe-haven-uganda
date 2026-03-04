@@ -6,7 +6,7 @@
     <title>Contact Us | Safe Haven Uganda</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/pages.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -14,7 +14,18 @@
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="logo">
-                <span class="logo-icon">🏳️‍⚧️</span>
+                <span class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect width="32" height="32" rx="8" fill="url(#logoGrad)"/>
+                        <path d="M10 16L14 20L22 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                            <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+                                <stop stop-color="#8B5CF6"/>
+                                <stop offset="1" stop-color="#EC4899"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
                 <span class="logo-text">Safe Haven <span class="accent">Uganda</span></span>
             </a>
             <div class="nav-links">
@@ -48,7 +59,7 @@
                 <!-- Contact Info -->
                 <div class="contact-info">
                     <h2>We're Here for You</h2>
-                    <p>Whether you need support, healthcare guidance, legal referrals, or relocation assistance — we're here to help. All communication is strictly confidential.</p>
+                    <p>Whether you need support, healthcare guidance, legal referrals, or relocation assistance - we're here to help. All communication is strictly confidential.</p>
                     
                     <div class="contact-methods">
                         <div class="contact-method">
@@ -96,7 +107,7 @@
                 <!-- Contact Form -->
                 <div class="contact-form-card">
                     <div class="emergency-banner">
-                        <h4>🆘 In Immediate Danger?</h4>
+                        <h4><i class="fas fa-exclamation-triangle"></i> In Immediate Danger?</h4>
                         <p>If you are in immediate danger, please contact emergency services or reach out to trusted human rights organizations for urgent assistance.</p>
                     </div>
                     
@@ -124,7 +135,7 @@
                             <select id="service" name="service" required>
                                 <option value="">Select a service...</option>
                                 <option value="healthcare">Healthcare / HIV Services</option>
-                                <option value="safety">Safety & Relocation</option>
+                                <option value="safety">Safety and Relocation</option>
                                 <option value="mental-health">Mental Health Support</option>
                                 <option value="legal">Legal Rights</option>
                                 <option value="community">Community Programs</option>
@@ -154,17 +165,17 @@
             </div>
             <div class="mv-grid">
                 <div class="mv-card">
-                    <div class="mv-icon">🏥</div>
+                    <div class="mv-icon"><i class="fas fa-hospital"></i></div>
                     <h3>Healthcare</h3>
                     <p>Contact friendly healthcare providers and HIV support programs through UNAIDS and Ministry of Health Uganda for confidential testing and treatment.</p>
                 </div>
                 <div class="mv-card">
-                    <div class="mv-icon">⚖️</div>
+                    <div class="mv-icon"><i class="fas fa-gavel"></i></div>
                     <h3>Legal Aid</h3>
                     <p>Reach out to human rights organizations providing legal representation and advocacy for LGBTQ+ individuals in Uganda.</p>
                 </div>
                 <div class="mv-card">
-                    <div class="mv-icon">🆘</div>
+                    <div class="mv-icon"><i class="fas fa-life-ring"></i></div>
                     <h3>Crisis Support</h3>
                     <p>If you're in immediate danger, contact emergency services or trusted international organizations for urgent protection assistance.</p>
                 </div>
@@ -178,7 +189,18 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="index.html" class="logo">
-                        <span class="logo-icon">🏳️‍⚧️</span>
+                        <span class="logo-icon">
+                            <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                                <rect width="32" height="32" rx="8" fill="url(#logoGrad2)"/>
+                                <path d="M10 16L14 20L22 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                    <linearGradient id="logoGrad2" x1="0" y1="0" x2="32" y2="32">
+                                        <stop stop-color="#8B5CF6"/>
+                                        <stop offset="1" stop-color="#EC4899"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </span>
                         <span class="logo-text">Safe Haven <span class="accent">Uganda</span></span>
                     </a>
                     <p>Empowering transgender women through advocacy, healthcare access, and community support.</p>
@@ -202,7 +224,7 @@
                 <div class="footer-links">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="services.html">HIV & Health</a></li>
+                        <li><a href="services.html">HIV and Health</a></li>
                         <li><a href="services.html">Safety Support</a></li>
                         <li><a href="services.html">Mental Health</a></li>
                         <li><a href="services.html">Legal Rights</a></li>
@@ -218,7 +240,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2024 Safe Haven Uganda. All rights reserved. | All communication is confidential.</p>
+                <p>2024 Safe Haven Uganda. All rights reserved. All communication is confidential.</p>
             </div>
         </div>
     </footer>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -15,7 +15,18 @@
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="logo">
-                <span class="logo-icon">🏳️‍⚧️</span>
+                <span class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect width="32" height="32" rx="8" fill="url(#logoGrad)"/>
+                        <path d="M10 16L14 20L22 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                            <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+                                <stop stop-color="#8B5CF6"/>
+                                <stop offset="1" stop-color="#EC4899"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
                 <span class="logo-text">Safe Haven <span class="accent">Uganda</span></span>
             </a>
             <div class="nav-links">
@@ -35,12 +46,16 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-bg"></div>
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
         <div class="container">
             <div class="hero-content">
-                <div class="hero-badge">🏳️‍⚧️ Trans Rights Are Human Rights</div>
+                <div class="hero-badge">Trans Rights Are Human Rights</div>
                 <h1>Empowering Transgender Women.<br>Protecting Rights. Saving Lives.</h1>
-                <p class="hero-text">Welcome to Safe Haven Uganda — a dedicated platform supporting transgender women across Uganda. We exist to promote dignity, protect human rights, improve access to healthcare, and provide support for those facing stigma, discrimination, or violence.</p>
+                <p class="hero-text">Welcome to Safe Haven Uganda - a dedicated platform supporting transgender women across Uganda. We exist to promote dignity, protect human rights, improve access to healthcare, and provide support for those facing stigma, discrimination, or violence.</p>
                 <div class="hero-buttons">
                     <a href="services.html" class="btn btn-primary">Our Services</a>
                     <a href="contact.html" class="btn btn-outline">Get Help Now</a>
@@ -69,26 +84,34 @@
             <div class="section-header">
                 <span class="section-tag">Our Mission</span>
                 <h2>Dignity. Rights. Safety. Opportunity.</h2>
-                <p>Every transgender woman deserves safety, healthcare, respect, and opportunity — no matter who she is or where she lives.</p>
+                <p>Every transgender woman deserves safety, healthcare, respect, and opportunity - no matter who she is or where she lives.</p>
             </div>
             <div class="mission-grid">
                 <div class="mission-card">
-                    <div class="mission-icon">🛡️</div>
+                    <div class="mission-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
                     <h3>Human Rights Advocacy</h3>
                     <p>Fighting for the fundamental rights of transgender women through legal support and advocacy.</p>
                 </div>
                 <div class="mission-card">
-                    <div class="mission-icon">🏥</div>
+                    <div class="mission-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
                     <h3>Healthcare Access</h3>
                     <p>Connecting our community with inclusive, affirming healthcare services and providers.</p>
                 </div>
                 <div class="mission-card">
-                    <div class="mission-icon">💜</div>
+                    <div class="mission-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
                     <h3>Community Support</h3>
                     <p>Building networks of care, support, and empowerment for transgender women.</p>
                 </div>
                 <div class="mission-card">
-                    <div class="mission-icon">📚</div>
+                    <div class="mission-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
                     <h3>Education & Awareness</h3>
                     <p>Anti-stigma education and training to create a more inclusive society.</p>
                 </div>
@@ -106,28 +129,36 @@
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">💊</div>
+                    <div class="service-icon">
+                        <i class="fas fa-viruses"></i>
+                    </div>
                     <h3>HIV & STI Services</h3>
                     <p>HIV prevention, testing guidance, PrEP/PEP education, and treatment support.</p>
-                    <a href="services.html" class="learn-more">Learn More →</a>
+                    <a href="services.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🛡️</div>
+                    <div class="service-icon">
+                        <i class="fas fa-house-user"></i>
+                    </div>
                     <h3>Safety & Relocation</h3>
                     <p>Emergency safety planning, temporary housing, and relocation support.</p>
-                    <a href="services.html" class="learn-more">Learn More →</a>
+                    <a href="services.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🧠</div>
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
                     <h3>Mental Health</h3>
                     <p>Peer support groups, trauma-informed counseling, and crisis intervention.</p>
-                    <a href="services.html" class="learn-more">Learn More →</a>
+                    <a href="services.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">⚖️</div>
+                    <div class="service-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
                     <h3>Know Your Rights</h3>
                     <p>Legal guidance, rights education, and connections to human rights partners.</p>
-                    <a href="services.html" class="learn-more">Learn More →</a>
+                    <a href="services.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="services-cta">
@@ -154,8 +185,12 @@
                 </div>
                 <div class="values-image">
                     <div class="image-frame">
-                        <span class="image-emoji">💜</span>
-                        <p>Trans Women Are<br><strong>Leaders. Entrepreneurs.<br>Caregivers. Changemakers.</strong></p>
+                        <div class="frame-content">
+                            <span class="frame-icon">
+                                <i class="fas fa-venus"></i>
+                            </span>
+                            <p>Trans Women Are<br><strong>Leaders. Entrepreneurs.<br>Caregivers. Changemakers.</strong></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -167,7 +202,7 @@
         <div class="container">
             <div class="cta-content">
                 <h2>You Deserve Safety. You Deserve Healthcare. You Deserve Dignity.</h2>
-                <p>If you need support, healthcare guidance, legal referrals, or assistance — we're here for you.</p>
+                <p>If you need support, healthcare guidance, legal referrals, or assistance - we're here for you.</p>
                 <div class="cta-buttons">
                     <a href="contact.html" class="btn btn-white">Contact Us</a>
                 </div>
@@ -181,7 +216,18 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="index.html" class="logo">
-                        <span class="logo-icon">🏳️‍⚧️</span>
+                        <span class="logo-icon">
+                            <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                                <rect width="32" height="32" rx="8" fill="url(#logoGrad2)"/>
+                                <path d="M10 16L14 20L22 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                    <linearGradient id="logoGrad2" x1="0" y1="0" x2="32" y2="32">
+                                        <stop stop-color="#8B5CF6"/>
+                                        <stop offset="1" stop-color="#EC4899"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </span>
                         <span class="logo-text">Safe Haven <span class="accent">Uganda</span></span>
                     </a>
                     <p>Empowering transgender women through advocacy, healthcare access, and community support.</p>
@@ -209,7 +255,6 @@
                         <li><a href="services.html">Safety Support</a></li>
                         <li><a href="services.html">Mental Health</a></li>
                         <li><a href="services.html">Legal Rights</a></li>
-                        <li><a href="services.html">Community</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
@@ -222,7 +267,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2024 Safe Haven Uganda. All rights reserved. | All communication is confidential.</p>
+                <p>2024 Safe Haven Uganda. All rights reserved. All communication is confidential.</p>
             </div>
         </div>
     </footer>
